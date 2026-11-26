@@ -3,7 +3,7 @@
     "name": "DelegAIze Connector",
     "summary": "Open Odoo contacts, leads, quotations and invoices in DelegAIze "
                "and hand them to an AI agent - only when a user clicks.",
-    "version": "17.0.1.0.0",
+    "version": "18.0.1.0.0",
     "category": "Productivity",
     "author": "Innov-AI-tive",
     "website": "https://delegaize.innov-ai-tive.de/branchen/backoffice?utm_source=odoo_apps&utm_medium=marketplace&utm_campaign=odoo_connector_202611&ref=th",
