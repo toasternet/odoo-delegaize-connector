@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="menu_delegaize_root"
+              name="DelegAIze"
+              web_icon="delegaize_connector,static/description/icon.png"
+              action="action_delegaize_home"
+              groups="base.group_user"
+              sequence="90"/>
+
+    <menuitem id="menu_delegaize_open"
+              name="Open DelegAIze"
+              parent="menu_delegaize_root"
+              action="action_delegaize_home"
+              groups="base.group_user"
+              sequence="10"/>
+
+    <menuitem id="menu_delegaize_settings"
+              name="Settings"
+              parent="menu_delegaize_root"
+              action="action_delegaize_settings"
+              groups="base.group_system"
+              sequence="90"/>
+</odoo>

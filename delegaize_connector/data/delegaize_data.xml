@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="action_delegaize_home" model="ir.actions.server">
+        <field name="name">Open DelegAIze</field>
+        <!-- Menus are only shown if the user may read the action's model; an abstract
+             model has no access rules, so the action is bound to res.partner. -->
+        <field name="model_id" ref="base.model_res_partner"/>
+        <field name="state">code</field>
+        <field name="code">action = env["delegaize.mixin"].action_delegaize_home()</field>
+    </record>
+
+    <record id="action_delegaize_settings" model="ir.actions.act_window">
+        <field name="name">DelegAIze Settings</field>
+        <field name="res_model">res.config.settings</field>
+        <field name="view_mode">form</field>
+        <field name="target">inline</field>
+        <field name="context">{'module': 'delegaize_connector', 'bin_size': False}</field>
+    </record>
+</odoo>

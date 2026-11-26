@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="res_config_settings_view_form_delegaize" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.delegaize</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="base.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//form" position="inside">
+                <app data-string="DelegAIze" string="DelegAIze" name="delegaize_connector"
+                     groups="base.group_system">
+                    <block title="Connection" name="delegaize_connection_block">
+                        <setting id="delegaize_url_setting" string="DelegAIze address"
+                                 help="Address of your DelegAIze workspace.">
+                            <field name="delegaize_url" placeholder="https://delegaize.innov-ai-tive.de"/>
+                        </setting>
+                        <setting id="delegaize_api_key_setting" string="API key"
+                                 help="Create the key in DelegAIze under Access (ideally for a technical user). It is only used for the connection test.">
+                            <field name="delegaize_api_key" password="True" placeholder="cpa_..."/>
+                            <div class="mt8">
+                                <button name="action_delegaize_test_connection" type="object"
+                                        string="Test connection" class="btn-secondary"
+                                        icon="fa-plug"/>
+                            </div>
+                        </setting>
+                    </block>
+                    <block title="Buttons on records" name="delegaize_links_block">
+                        <setting id="delegaize_send_name_setting"
+                                 string="Include record name in links"
+                                 help="Contacts, leads, quotations and invoices get the buttons &quot;Open in DelegAIze&quot; and &quot;Ask agent&quot;. They open DelegAIze in a new tab with a reference to the record. Nothing is sent before a user clicks.">
+                            <field name="delegaize_send_record_name"/>
+                        </setting>
+                        <setting id="delegaize_paths_setting" string="Advanced"
+                                 help="Only change these if DelegAIze support asks you to.">
+                            <div class="row mt8">
+                                <label for="delegaize_link_path" class="col-lg-4 o_light_label"/>
+                                <field name="delegaize_link_path"/>
+                            </div>
+                            <div class="row">
+                                <label for="delegaize_api_path" class="col-lg-4 o_light_label"/>
+                                <field name="delegaize_api_path"/>
+                            </div>
+                        </setting>
+                    </block>
+                </app>
+            </xpath>
+        </field>
+    </record>
+</odoo>

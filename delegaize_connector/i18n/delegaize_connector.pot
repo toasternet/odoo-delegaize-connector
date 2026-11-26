@@ -1,0 +1,260 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* delegaize_connector
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0-20260908\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-26 11:07+0000\n"
+"PO-Revision-Date: 2026-11-26 11:07+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: delegaize_connector
+#: model_terms:ir.ui.view,arch_db:delegaize_connector.view_partner_form_delegaize
+msgid ""
+"<span class=\"o_stat_text\">Ask</span>\n"
+"                        <span class=\"o_stat_text\">agent</span>"
+msgstr ""
+
+#. module: delegaize_connector
+#: model_terms:ir.ui.view,arch_db:delegaize_connector.view_partner_form_delegaize
+msgid ""
+"<span class=\"o_stat_text\">Open in</span>\n"
+"                        <span class=\"o_stat_text\">DelegAIze</span>"
+msgstr ""
+
+#. module: delegaize_connector
+#: model_terms:ir.ui.view,arch_db:delegaize_connector.res_config_settings_view_form_delegaize
+msgid "API key"
+msgstr ""
+
+#. module: delegaize_connector
+#: model:ir.model.fields,help:delegaize_connector.field_res_config_settings__delegaize_api_key
+msgid ""
+"API key of a DelegAIze user (ideally a technical user). It is only used for "
+"the connection test; the buttons on records do not use it."
+msgstr ""
+
+#. module: delegaize_connector
+#: model:ir.model.fields,field_description:delegaize_connector.field_res_config_settings__delegaize_api_path
+msgid "API path"
+msgstr ""
+
+#. module: delegaize_connector
+#: model:ir.model.fields,help:delegaize_connector.field_res_config_settings__delegaize_url
+msgid ""
+"Address of your DelegAIze workspace, e.g. https://delegaize.innov-ai-tive.de"
+msgstr ""
+
+#. module: delegaize_connector
+#: model_terms:ir.ui.view,arch_db:delegaize_connector.res_config_settings_view_form_delegaize
+msgid "Address of your DelegAIze workspace."
+msgstr ""
+
+#. module: delegaize_connector
+#: model_terms:ir.ui.view,arch_db:delegaize_connector.res_config_settings_view_form_delegaize
+msgid "Advanced"
+msgstr ""
+
+#. module: delegaize_connector
+#: model_terms:ir.ui.view,arch_db:delegaize_connector.view_partner_form_delegaize
+msgid "Ask a DelegAIze agent about this contact"
+msgstr ""
+
+#. module: delegaize_connector
+#: model_terms:ir.ui.view,arch_db:delegaize_connector.res_config_settings_view_form_delegaize
+msgid "Buttons on records"
+msgstr ""
+
+#. module: delegaize_connector
+#: model:ir.model,name:delegaize_connector.model_res_config_settings
+msgid "Config Settings"
+msgstr ""
+
+#. module: delegaize_connector
+#: model_terms:ir.ui.view,arch_db:delegaize_connector.res_config_settings_view_form_delegaize
+msgid "Connection"
+msgstr ""
+
+#. module: delegaize_connector
+#. odoo-python
+#: code:addons/delegaize_connector/models/res_config_settings.py:0
+#, python-format
+msgid "Connection to DelegAIze works."
+msgstr ""
+
+#. module: delegaize_connector
+#: model:ir.model,name:delegaize_connector.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: delegaize_connector
+#: model_terms:ir.ui.view,arch_db:delegaize_connector.res_config_settings_view_form_delegaize
+msgid ""
+"Contacts, leads, quotations and invoices get the buttons \"Open in "
+"DelegAIze\" and \"Ask agent\". They open DelegAIze in a new tab with a "
+"reference to the record. Nothing is sent before a user clicks."
+msgstr ""
+
+#. module: delegaize_connector
+#: model_terms:ir.ui.view,arch_db:delegaize_connector.res_config_settings_view_form_delegaize
+msgid ""
+"Create the key in DelegAIze under Access (ideally for a technical user). It "
+"is only used for the connection test."
+msgstr ""
+
+#. module: delegaize_connector
+#: model:ir.model.fields,field_description:delegaize_connector.field_res_config_settings__delegaize_link_path
+msgid "Deep link path"
+msgstr ""
+
+#. module: delegaize_connector
+#: model:ir.ui.menu,name:delegaize_connector.menu_delegaize_root
+#: model_terms:ir.ui.view,arch_db:delegaize_connector.res_config_settings_view_form_delegaize
+msgid "DelegAIze"
+msgstr ""
+
+#. module: delegaize_connector
+#: model:ir.model.fields,field_description:delegaize_connector.field_res_config_settings__delegaize_api_key
+msgid "DelegAIze API key"
+msgstr ""
+
+#. module: delegaize_connector
+#: model:ir.actions.act_window,name:delegaize_connector.action_delegaize_settings
+msgid "DelegAIze Settings"
+msgstr ""
+
+#. module: delegaize_connector
+#: model:ir.model.fields,field_description:delegaize_connector.field_res_config_settings__delegaize_url
+#: model_terms:ir.ui.view,arch_db:delegaize_connector.res_config_settings_view_form_delegaize
+msgid "DelegAIze address"
+msgstr ""
+
+#. module: delegaize_connector
+#. odoo-python
+#: code:addons/delegaize_connector/models/res_config_settings.py:0
+#, python-format
+msgid "DelegAIze connection test"
+msgstr ""
+
+#. module: delegaize_connector
+#: model:ir.model,name:delegaize_connector.model_delegaize_mixin
+msgid "DelegAIze deep link helper"
+msgstr ""
+
+#. module: delegaize_connector
+#. odoo-python
+#: code:addons/delegaize_connector/models/res_config_settings.py:0
+#, python-format
+msgid "DelegAIze is not reachable at %s."
+msgstr ""
+
+#. module: delegaize_connector
+#. odoo-python
+#: code:addons/delegaize_connector/models/res_config_settings.py:0
+#, python-format
+msgid "DelegAIze rejected the API key."
+msgstr ""
+
+#. module: delegaize_connector
+#. odoo-python
+#: code:addons/delegaize_connector/models/res_config_settings.py:0
+#, python-format
+msgid "DelegAIze reported an error for this key."
+msgstr ""
+
+#. module: delegaize_connector
+#: model:ir.model.fields,help:delegaize_connector.field_res_config_settings__delegaize_send_record_name
+msgid ""
+"If enabled, the display name of the record (e.g. the company name) is part "
+"of the link, so DelegAIze can find the record before it is linked."
+msgstr ""
+
+#. module: delegaize_connector
+#: model:ir.model.fields,field_description:delegaize_connector.field_res_config_settings__delegaize_send_record_name
+#: model_terms:ir.ui.view,arch_db:delegaize_connector.res_config_settings_view_form_delegaize
+msgid "Include record name in links"
+msgstr ""
+
+#. module: delegaize_connector
+#: model_terms:ir.ui.view,arch_db:delegaize_connector.res_config_settings_view_form_delegaize
+msgid "Only change these if DelegAIze support asks you to."
+msgstr ""
+
+#. module: delegaize_connector
+#: model:ir.actions.server,name:delegaize_connector.action_delegaize_home
+#: model:ir.ui.menu,name:delegaize_connector.menu_delegaize_open
+msgid "Open DelegAIze"
+msgstr ""
+
+#. module: delegaize_connector
+#: model_terms:ir.ui.view,arch_db:delegaize_connector.view_partner_form_delegaize
+msgid ""
+"Open this contact in DelegAIze (opens a new tab, nothing is sent before you "
+"click)"
+msgstr ""
+
+#. module: delegaize_connector
+#: model:ir.model.fields,help:delegaize_connector.field_res_config_settings__delegaize_link_path
+msgid "Path in DelegAIze that receives the record reference."
+msgstr ""
+
+#. module: delegaize_connector
+#: model:ir.model.fields,help:delegaize_connector.field_res_config_settings__delegaize_api_path
+msgid "Path of the DelegAIze API used by the connection test."
+msgstr ""
+
+#. module: delegaize_connector
+#. odoo-python
+#: code:addons/delegaize_connector/models/res_config_settings.py:0
+#, python-format
+msgid "Please enter an API key first."
+msgstr ""
+
+#. module: delegaize_connector
+#: model:ir.ui.menu,name:delegaize_connector.menu_delegaize_settings
+msgid "Settings"
+msgstr ""
+
+#. module: delegaize_connector
+#: model_terms:ir.ui.view,arch_db:delegaize_connector.res_config_settings_view_form_delegaize
+msgid "Test connection"
+msgstr ""
+
+#. module: delegaize_connector
+#. odoo-python
+#: code:addons/delegaize_connector/models/delegaize_mixin.py:0
+#: code:addons/delegaize_connector/models/res_config_settings.py:0
+#, python-format
+msgid "The DelegAIze address must start with https://."
+msgstr ""
+
+#. module: delegaize_connector
+#. odoo-python
+#: code:addons/delegaize_connector/models/res_config_settings.py:0
+#, python-format
+msgid "Unexpected answer from DelegAIze (HTTP %s)."
+msgstr ""
+
+#. module: delegaize_connector
+#. odoo-python
+#: code:addons/delegaize_connector/models/delegaize_mixin.py:0
+#, python-format
+msgid "Unknown DelegAIze action."
+msgstr ""
+
+#. module: delegaize_connector
+#: model_terms:ir.ui.view,arch_db:delegaize_connector.res_config_settings_view_form_delegaize
+msgid "cpa_..."
+msgstr ""
+
+#. module: delegaize_connector
+#: model_terms:ir.ui.view,arch_db:delegaize_connector.res_config_settings_view_form_delegaize
+msgid "https://delegaize.innov-ai-tive.de"
+msgstr ""

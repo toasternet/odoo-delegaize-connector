@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_crm_lead_form_delegaize" model="ir.ui.view">
+        <field name="name">crm.lead.form.delegaize</field>
+        <field name="model">crm.lead</field>
+        <!-- applied first, so the buttons stay visible instead of landing in "More" -->
+        <field name="priority">1</field>
+        <field name="inherit_id" ref="crm.crm_lead_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[@name='button_box']" position="inside">
+                <button name="action_delegaize_open" type="object" class="oe_stat_button"
+                        icon="fa-external-link" groups="base.group_user"
+                        help="Open this record in DelegAIze (opens a new tab, nothing is sent before you click)">
+                    <div class="o_stat_info">
+                        <span class="o_stat_text">Open in</span>
+                        <span class="o_stat_text">DelegAIze</span>
+                    </div>
+                </button>
+                <button name="action_delegaize_ask" type="object" class="oe_stat_button"
+                        icon="fa-comments" groups="base.group_user"
+                        help="Ask a DelegAIze agent about this record">
+                    <div class="o_stat_info">
+                        <span class="o_stat_text">Ask</span>
+                        <span class="o_stat_text">agent</span>
+                    </div>
+                </button>
+            </xpath>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,53 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* delegaize_connector_sale
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0-20260908\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-26 11:07+0000\n"
+"PO-Revision-Date: 2026-11-26 11:07+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: delegaize_connector_sale
+#: model_terms:ir.ui.view,arch_db:delegaize_connector_sale.view_sale_order_form_delegaize
+msgid ""
+"<span class=\"o_stat_text\">Ask</span>\n"
+"                        <span class=\"o_stat_text\">agent</span>"
+msgstr ""
+"<span class=\"o_stat_text\">Agent</span>\n"
+"                        <span class=\"o_stat_text\">fragen</span>"
+
+#. module: delegaize_connector_sale
+#: model_terms:ir.ui.view,arch_db:delegaize_connector_sale.view_sale_order_form_delegaize
+msgid ""
+"<span class=\"o_stat_text\">Open in</span>\n"
+"                        <span class=\"o_stat_text\">DelegAIze</span>"
+msgstr ""
+"<span class=\"o_stat_text\">In DelegAIze</span>\n"
+"                        <span class=\"o_stat_text\">öffnen</span>"
+
+#. module: delegaize_connector_sale
+#: model_terms:ir.ui.view,arch_db:delegaize_connector_sale.view_sale_order_form_delegaize
+msgid "Ask a DelegAIze agent about this record"
+msgstr "Einen DelegAIze-Agenten zu diesem Datensatz fragen"
+
+#. module: delegaize_connector_sale
+#: model_terms:ir.ui.view,arch_db:delegaize_connector_sale.view_sale_order_form_delegaize
+msgid ""
+"Open this record in DelegAIze (opens a new tab, nothing is sent before you "
+"click)"
+msgstr ""
+"Diesen Datensatz in DelegAIze öffnen (neuer Tab, vor dem Klick wird nichts übertragen)"
+
+#. module: delegaize_connector_sale
+#: model:ir.model,name:delegaize_connector_sale.model_sale_order
+msgid "Sales Order"
+msgstr "Verkaufsauftrag"
