@@ -13,7 +13,6 @@
         <field name="name">DelegAIze Settings</field>
         <field name="res_model">res.config.settings</field>
         <field name="view_mode">form</field>
-        <field name="target">inline</field>
         <field name="context">{'module': 'delegaize_connector', 'bin_size': False}</field>
     </record>
 </odoo>
